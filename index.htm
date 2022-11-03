@@ -386,16 +386,18 @@
         z-index: 1;
       }
     </style>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      @font-face {
+        font-family: "Bebas Neue";
+        src: url("Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+      }
+    </style>
   </head>
   <body>
     <div id="viewer" class="fill-viewport"></div>
     <h1
       style="
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Bebas Neue';
         font-size: 20vw;
         margin: 0;
         position: fixed;
