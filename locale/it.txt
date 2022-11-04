@@ -10,4 +10,4 @@ panorama_3693B9DB_3DFD_EADA_41BB_CDFBD5DA00E4.label = office_demo_00001
 ### Description
 
 ### Title
-tour.name = estensiva
+tour.name = estensiva.it
