@@ -1,10 +1,5 @@
 #: locale=it
 
-## Media
-
-### Title
-panorama_4B16C136_4702_13A3_418D_19DEFEF9F619.label = demo
-
 ## Tour
 
 ### Description
