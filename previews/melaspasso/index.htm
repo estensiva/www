@@ -3,25 +3,25 @@
 <head>
     <title>Mela Spasso</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
+    <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.7"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1669396870136"></script>
-    <link rel="preload" href="locale/it.txt?v=1669396870136" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1669396870136" as="script"/>
-	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/r/3/0_0.jpg?v=1669396870136" as="image"/>
-	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/l/3/0_0.jpg?v=1669396870136" as="image"/>
-	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/u/3/0_0.jpg?v=1669396870136" as="image"/>
-	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/d/3/0_0.jpg?v=1669396870136" as="image"/>
-	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/f/3/0_0.jpg?v=1669396870136" as="image"/>
-	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/b/3/0_0.jpg?v=1669396870136" as="image"/>
+    <script src="lib/tdvplayer.js?v=1669400747349"></script>
+    <link rel="preload" href="locale/it.txt?v=1669400747349" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1669400747349" as="script"/>
+	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/r/3/0_0.jpg?v=1669400747349" as="image"/>
+	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/l/3/0_0.jpg?v=1669400747349" as="image"/>
+	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/u/3/0_0.jpg?v=1669400747349" as="image"/>
+	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/d/3/0_0.jpg?v=1669400747349" as="image"/>
+	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/f/3/0_0.jpg?v=1669400747349" as="image"/>
+	<link rel="preload" href="media/panorama_B8F98369_A88D_E6F9_41E4_89732AFCF1DC_0/b/3/0_0.jpg?v=1669400747349" as="image"/>
 	<script src="tdvquiz.js" type="text/javascript"></script>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#58D2FA"/>
-    <script src="script.js?v=1669396870136"></script>
+    <script src="script.js?v=1669400747349"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"mobile":"script_mobile.js?v=1669396870136","general":"script_general.js?v=1669396870136"};
+        var devicesUrl = {"mobile":{"portrait":"script_mobile.js?v=1669400747349","landscape":"script_general.js?v=1669400747349"},"general":"script_general.js?v=1669400747349"};
 
         (function()
         {
@@ -64,9 +64,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1669396870136');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1669396870136');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1669396870136');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1669400747349');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1669400747349');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1669400747349');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -331,7 +331,7 @@
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(88,210,250,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1669396870136">
+    <link rel="stylesheet" href="fonts.css?v=1669400747349">
 </head>
 <body>
     <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 45.44%; width: 100.00%; height: 5.99%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:3.0842230130486357vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="display:inline-block; letter-spacing:0.12vmin; white-space:pre-wrap;color:#ffffff;font-size:3.08vmin;font-family:'Shadows Into Light Two';"><B>Caricamento in corso...</B></SPAN></SPAN></DIV></div></div></div>
